@@ -1,0 +1,18 @@
+# Node.js dependencies
+node_modules/
+
+# Dependency lock file
+package-lock.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime files
+*.tmp
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
