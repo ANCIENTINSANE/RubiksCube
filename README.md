@@ -48,8 +48,10 @@ Each face is a 3×3 grid represented in a standard cube net:
 https://github.com/ANCIENTINSANE/RubiksCube.git
 cd rubikscube
 npm install
-npm start
+npm run dev
 The app will open in your browser at http://localhost:5173/.
+
+---
 
 🧪 Usage
 From the UI, you can:
@@ -65,8 +67,8 @@ Solve Cube – same as reset (currently no solving algorithm).
 src/
 │
 ├── RubiksCubeComponent.jsx   # Main cube logic and UI
-├── App.js                    # Root app wrapper
-├── index.js                  # ReactDOM entry point
+├── App.jsx                    # Root app wrapper
+├── main.jsx                  # ReactDOM entry point
 └── ...
 🎨 Technology Stack
 React – Component-based UI library
