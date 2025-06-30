@@ -51,9 +51,10 @@ npm install
 npm run dev
 The app will open in your browser at http://localhost:5173/.
 
+
 ---
 
-🧪 Usage
+## 🧪 Usage
 From the UI, you can:
 
 Reset Cube – restore the cube to solved state.
@@ -62,7 +63,7 @@ Scramble Cube – randomly rotate each face like a real cube.
 
 Solve Cube – same as reset (currently no solving algorithm).
 
-📁 File Structure
+## 📁 File Structure
 
 src/
 │
@@ -70,14 +71,15 @@ src/
 ├── App.jsx                    # Root app wrapper
 ├── main.jsx                  # ReactDOM entry point
 └── ...
-🎨 Technology Stack
+
+## 🎨 Technology Stack
 React – Component-based UI library
 
 JavaScript – Cube logic and rotation algorithms
 
 HTML/CSS – Visual cube rendering
 
-💡 Learning Highlights
+## 💡 Learning Highlights
 3D simulation logic via 2D arrays
 
 Rotation matrix indexing and logic
@@ -86,7 +88,7 @@ State management and side-effect updates in React
 
 Clean user interface integrated with cube logic
 
-📌 To-Do / Future Features
+## 📌 To-Do / Future Features
 Add per-face rotation buttons (e.g., F, F′, R, R′, etc.)
 
 Support for keyboard shortcuts
@@ -97,7 +99,7 @@ Move history + undo functionality
 
 Real cube solving algorithm (e.g., Kociemba’s algorithm)
 
-📜 License
+## 📜 License
 MIT License
 
 Feel free to fork, contribute, or integrate it into your own apps!
